@@ -1,7 +1,28 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <script
+         src="https://code.jquery.com/jquery-3.4.1.js"
+         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+         crossorigin="anonymous"></script>
+        <script src="typed.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="navbar"><span> </span></div>
+        <div id="wrapper" class="wrapper"></div>
+         <span id="typed"></span>
+        <script>
+         var typed = new Typed('#typed',{
+                   strings:["Hello My Name is Bob. <br> What is your name? <br> I am sorry i did not get that so now your name is Jon."],
+                   backSpeed: 4,
+                   typeSpeed: 35,
+                   loop: false,
+                   shuffle: true,
+                   showCursor: false,
+                   
+                 });
+      
+        </script>
+    </body>
 </html>
