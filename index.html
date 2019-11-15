@@ -18,18 +18,40 @@
         <script>
          var typed = new Typed('#typed',{
                      strings: [
-                     "Fuck My Head Hurts",
-                     "Fuck My Head Hurts",
+                     "Hey you <br> Yes you <br> You want to learn about some old guys? <br> You don’t? <br> *Threatens you* <br> You changed your mind? <br> That is lovely",
+                     "",
                      ],
                    backSpeed: 4,
-                   typeSpeed: 35,
-                   loop: true,
+                   typeSpeed: 3,
+                   loop: false,
                    shuffle: true,
                    showCursor: false,
                    
                  });
       
         </script>
+
+        
+        <script>
+         var typed = new Typed('#typed',{
+                     strings: [
+                     "  <br>  <br>   <br> <br>  <br>  <br> <br>  <br> test test test test",
+                     ],
+                     backSpeed: 4,
+                     typeSpeed: 2,
+                     loop: false,
+                     shuffle: true,
+                     showCursor: false,
+                     startDelay: 10000,
+                   });
+                 
+         </script>
+         <img id="myimage" src="http://www.hdwallpapers.in/walls/apple_sky_blue_aurora-wide.jpg" style="display:none;width:100px;height:100px;"  />
+         <script>
+           setTimeout(function(){
+           document.getElementById('myimage').style.display = 'block';
+           },1000);
+           </script>
+           
     </body>
 </html>
-<!--"Hello My Name is Bob. <br> What is your name? <br> actually i am lazy so your name is jon now."-->
